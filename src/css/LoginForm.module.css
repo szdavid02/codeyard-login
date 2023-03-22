@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+.left {
+  width: 50%;
+  position: relative;
+  background: #f7f7f7;
+}
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  filter: brightness(70%);
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  width: 40%;
+  color: #757575;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 10px;
+}
+
+.signUp {
+  background-color: #4a90e2;
+  border-radius: 5px;
+  height: 45px;
+  width: 130px;
+  border: none;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+.rightContainer {
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: left;
+  color: white;
+}
+
+.insideOverlay {
+  text-align: left;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.loginButton {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.passwordSign {
+  position: absolute;
+  top: 61%;
+  right: 5%;
+}
+
+.visibilitySign {
+  position: absolute;
+  top: 61%;
+  right: 12%;
+}
+
+.logo {
+  position: absolute;
+  top: -20%;
+}
+
+.rememberMe {
+  position: fixed;
+  display: flex;
+  color: #757575;
+}
